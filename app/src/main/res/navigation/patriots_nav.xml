@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/patriots_nav"
+    app:startDestination="@id/currentgames">
+    <fragment
+        android:id="@+id/previousgames"
+        android:name="com.example.proschedules.previousgames"
+        android:label="fragment_previousgames"
+        tools:layout="@layout/fragment_previousgames" />
+    <fragment
+        android:id="@+id/currentgames"
+        android:name="com.example.proschedules.currentgames"
+        android:label="fragment_currentgames"
+        tools:layout="@layout/fragment_currentgames" />
+    <fragment
+        android:id="@+id/upcominggames"
+        android:name="com.example.proschedules.upcominggames"
+        android:label="fragment_upcominggames"
+        tools:layout="@layout/fragment_upcominggames" />
+</navigation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Previous Games"
+        android:icon="@drawable/baseline_format_align_left_24"
+        android:id="@+id/previousgames"/>
+    <item android:title="This Week's Game"
+        android:icon="@drawable/baseline_format_align_center_24"
+        android:id="@+id/currentgames"/>
+    <item android:title="Upcoming Games"
+        android:icon="@drawable/baseline_format_align_right_24"
+        android:id="@+id/upcominggames"/>
+</menu>
